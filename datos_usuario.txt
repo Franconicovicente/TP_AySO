@@ -1,1 +1,6 @@
 Usuario=vagrant
+cpu family      : 23
+cpu MHz         : 3593.260
+cpu cores       : 2
+cpuid level     : 13
+
