@@ -1,0 +1,132 @@
+cd /
+pw
+pwd
+cd home/
+ls -la
+cd
+exit
+ls -la
+cd repogit/TP_AySO/
+grep -v "nologin" /etc/passwd | head -n 10
+man sort
+grep -v "nologin" /etc/passwd | sort -7
+sort --help
+grep -v "nologin" /etc/passwd | sort -n 7
+grep -v "nologin" /etc/passwd | sort : -n 7
+grep -v "nologin" /etc/passwd | sort -t : -k 7 | head -n 10
+grep -v "nologin" /etc/passwd | head -n 10
+man sort
+grep -v "nologin" /etc/passwd | head -n 10 | sort -k 7
+man sort
+grep -v "nologin" /etc/passwd | head -n 10 | sort -k 7
+grep -v "nologin" /etc/passwd | head -n 10 | sort -k 9
+grep -v "nologin" /etc/passwd | head | sort -k 7
+ls -la
+cat <<FIN>> lista_ordenada 
+lxd:x:999:100::/var/snap/lxd/common/lxd:/bin/false
+pollinate:x:110:1::/var/cache/pollinate:/bin/false
+root:x:0:0:root:/root:/bin/bash
+sync:x:4:65534:sync:/bin:/bin/sync
+tss:x:106:112:TPM software stack,,,:/var/lib/tpm:/bin/false
+ubuntu:x:1001:1001:Ubuntu:/home/ubuntu:/bin/bash
+vagrant:x:1000:1000:,,,:/home/vagrant:/bin/bash
+
+FIN
+
+cat lista_ordenada 
+cat <<FIN>> lista_ordenada 
+Lista de usuarios ordenada
+FIN
+
+cat lista_ordenada 
+git add .
+git status
+git commit -m "Listado de usuarios ordenada"
+git push origin main
+exit
+pwd
+cd
+pwd
+ls -la
+cd repogit/
+ls -la
+cd TP_AySO/
+ls -l
+echo "Usuario=$(whoami)">comando_dump_net
+ls -l
+echo comando_dump_net <<FIN>> comando_dump_net 
+hola
+FIN
+
+cat comando_dump_net 
+rm comando_dump_net 
+ls -la
+echo "Usuario=$(whoami)">comando_dump_net
+ls -la
+cat comando_dump_net 
+echo <<FIN>> comando_dump_net 
+hola
+como
+va
+FIN
+
+cat comando_dump_net 
+rm comando_dump_net 
+echo "Usuario=$(whoami)">comando_dump_net
+echo "Hola" >> comando_dump_net 
+cat comando_dump_net 
+echo "Hola\nComo estas" >> comando_dump_net 
+cat comando_dump_net 
+rm comando_dump_net 
+echo "Usuario=$(whoami)">comando_dump_net
+echo -e "Hola\nComo estas" >> comando_dump_net 
+cat comando_dump_net 
+rm comando_dump_net 
+echo "Usuario=$(whoami)">comando_dump_net
+echo -e "1.Instalar tshark en vagrant con sudo apt-get update
+sudo apt-get install tshark -y\n2.Capturar el trafico de red sudo tshark -i eth0\n3.Filtros para capturar tráfico específico sudo tshark -i eth0 -f "tcp port 80"
+
+
+echo -e "1.Instalar tshark en vagrant con sudo apt-get update
+sudo apt-get install tshark -y\n2.Capturar el trafico de red sudo tshark -i eth0\n3.Filtros para capturar tráfico específico sudo tshark
+echo -e "1.Instalar tshark en vagrant con sudo apt-get update
+sudo apt-get install tshark -y\n2.Capturar el trafico de red sudo tshark -i eth0\n3.Filtros para capturar tráfico específico sudo tshark -i eth0 -f "tcp port 80">>comando_dump_net
+FIN
+
+
+echo -e "1.Instalar tshark en vagrant con sudo apt-get update
+sudo apt-get install tshark -y\n2.Capturar el trafico de red sudo tshark -i eth0\n3.Filtros para capturar tráfico específico sudo tshark -i eth0 -f "tcp port 80">>comando_dump_net
+FIN
+echo -e "1.Instalar tshark en vagrant con sudo apt-get update
+sudo apt-get install tshark -y\n2.Capturar el trafico de red sudo tshark -i eth0\n3.Filtros para capturar tráfico específico sudo tshark -i eth0 -f "tcp port 80"">>comando_dump_net
+cat comando_dump_net 
+git add .
+git commit -m "Comando para Capturar y analizar el tráfico de red"
+git push
+cd
+ls -la
+cat README 
+echo "Nombre: Franco Vicente\nDivision: 114\nTurno: Mañana" >> README 
+cd repogit/
+ls -la
+cd TP_AySO/
+ls -la
+echo "Usuario=$(whoami)">README.md
+ls -la
+echo README.md <<FIN>> README.md 
+Nombre = Franco Vicente
+Division: 114
+Turno: Mañana
+FIN
+
+cat README.md 
+rm README.md 
+echo "Usuario=$(whoami)">README.md
+echo -e "Nombre: Franco Vicente\nDivision: 114\nTurno: Mañana">> README.md 
+cat README.md 
+git add .
+git commit -m "Agregado README"
+git push
+history -a
+cd
+history -a
