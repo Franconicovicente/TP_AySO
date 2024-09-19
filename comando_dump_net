@@ -1,0 +1,5 @@
+Usuario=vagrant
+1.Instalar tshark en vagrant con sudo apt-get update
+sudo apt-get install tshark -y
+2.Capturar el trafico de red sudo tshark -i eth0
+3.Filtros para capturar tráfico específico sudo tshark -i eth0 -f tcp port 80
